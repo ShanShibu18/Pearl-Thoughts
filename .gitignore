@@ -1,0 +1,19 @@
+# Terraform folders
+.terraform/
+
+# Terraform state files
+terraform.tfstate
+terraform.tfstate.backup
+
+# Variable files
+*.tfvars
+
+# Lock file 
+.terraform.lock.hcl
+
+# Private Keys
+*.pem
+
+# OS junk
+.DS_Store
+Thumbs.db
